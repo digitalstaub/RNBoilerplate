@@ -1,5 +1,5 @@
 
-# Use https://www.npmjs.com/package/react-native-rename to rename Project
+# Use [react-native-rename](https://www.npmjs.com/package/react-native-rename)  to rename Project
 
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
