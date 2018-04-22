@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import AppFooter from '../components/AppFooter'
+import Home from '../components/Home'
 import {
   Container,
   Header,
@@ -31,7 +32,7 @@ export default class HomeScreen extends Component {
       </Header>
       <Content>
         <Text>
-          This is Home Content Section
+          <Home/>
         </Text>
       </Content>
       <AppFooter/>

@@ -23,17 +23,13 @@ class Home extends Component {
 
   render() {
     if (this.props.loading) {
-      return (<View style={styles.activityIndicatorContainer}>
+      return (
         <ActivityIndicator animating={true}/>
-      </View>);
+      );
     } else {
-      return (<View style={{
-          flex: 1,
-          backgroundColor: '#F5F5F5',
-          paddingTop: 20
-        }}>
+      return (
         <FlatList ref='listRef' data={this.props.data} renderItem={this.renderItem} keyExtractor={(item, index) => index.toString()}/>
-      </View>);
+      );
     }
   }
 
