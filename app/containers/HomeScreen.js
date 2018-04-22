@@ -31,9 +31,7 @@ export default class HomeScreen extends Component {
         <Right/>
       </Header>
       <Content>
-        <Text>
           <Home/>
-        </Text>
       </Content>
       <AppFooter/>
     </Container>);
