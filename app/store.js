@@ -1,11 +1,13 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
+import logger from 'redux-logger'
 
 
 import reducers from '../app/reducers/index'; //Import the reducer
 
 let middleware = []
 middleware.push(thunk)
+middleware.push(logger)
 // middleware.push(devToolsEnhancer())
 // Connect our store to the reducers
 // const composeEnhancers = composeWithDevTools({ realtime: true});
