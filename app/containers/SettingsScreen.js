@@ -33,7 +33,7 @@ export default class SettingsScreen extends Component {
         <Right/>
       </Header>
       <Content>
-        <Text>{I18n.t('SettingsScreen')}</Text>
+        <Text>{I18n.t('SettingsScreen', {val: '123'})}</Text>
       </Content>
       <AppFooter/>
     </Container>);

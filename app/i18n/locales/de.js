@@ -1,3 +1,5 @@
 export default {
-  SettingsScreen: 'Das ist die Einstellungsseite.'
+  SettingsScreen: 'Das ist die Einstellungsseite.',
+  Home: 'Start',
+  Settings: 'Einstellungen'
 };
