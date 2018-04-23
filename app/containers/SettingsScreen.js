@@ -28,7 +28,7 @@ export default class SettingsScreen extends Component {
           </Button>
         </Left>
         <Body>
-          <Title>Header</Title>
+          <Title>{I18n.t('Settings')}</Title>
         </Body>
         <Right/>
       </Header>

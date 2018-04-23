@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import AppFooter from '../components/AppFooter'
 import Home from '../components/Home'
+import I18n from '../i18n';
+
 import {
   Container,
   Header,
@@ -26,7 +28,7 @@ export default class HomeScreen extends Component {
           </Button>
         </Left>
         <Body>
-          <Title>Header</Title>
+          <Title>{I18n.t('Home')}</Title>
         </Body>
         <Right/>
       </Header>
