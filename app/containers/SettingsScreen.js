@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import AppFooter from '../components/AppFooter'
+import I18n from '../i18n';
+
 import {
   Container,
   Header,
@@ -14,6 +16,7 @@ import {
   Icon,
   Text
 } from 'native-base';
+
 
 export default class SettingsScreen extends Component {
   render() {
@@ -30,9 +33,7 @@ export default class SettingsScreen extends Component {
         <Right/>
       </Header>
       <Content>
-        <Text>
-          This is Settings Content Section
-        </Text>
+        <Text>{I18n.t('SettingsScreen')}</Text>
       </Content>
       <AppFooter/>
     </Container>);
