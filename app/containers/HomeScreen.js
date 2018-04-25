@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import AppFooter from '../components/AppFooter'
 import Home from '../components/Home'
 import I18n from '../i18n';
 
@@ -22,11 +21,7 @@ export default class HomeScreen extends Component {
   render() {
     return (<Container>
       <Header>
-        <Left>
-          <Button transparent={true}>
-            <Icon name='menu'/>
-          </Button>
-        </Left>
+        <Left/>
         <Body>
           <Title>{I18n.t('Home')}</Title>
         </Body>
@@ -35,7 +30,6 @@ export default class HomeScreen extends Component {
       <Content>
           <Home/>
       </Content>
-      <AppFooter/>
     </Container>);
   }
 }

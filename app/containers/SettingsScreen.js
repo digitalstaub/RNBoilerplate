@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import AppFooter from '../components/AppFooter'
 import I18n from '../i18n';
 
 import {
@@ -22,11 +21,7 @@ export default class SettingsScreen extends Component {
   render() {
     return (<Container>
       <Header>
-        <Left>
-          <Button transparent={true}>
-            <Icon name='menu'/>
-          </Button>
-        </Left>
+        <Left/>
         <Body>
           <Title>{I18n.t('Settings')}</Title>
         </Body>
@@ -35,7 +30,6 @@ export default class SettingsScreen extends Component {
       <Content>
         <Text>{I18n.t('SettingsScreen', {val: 'RNBoilerplate'})}</Text>
       </Content>
-      <AppFooter/>
     </Container>);
   }
 }
